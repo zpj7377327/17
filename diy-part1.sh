@@ -10,6 +10,6 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-
-# Add a feed source
+sed -i src-git package https://github.com/zpj7377327/luci-app-serverchan.git
+# Add a feed souhttps://github.com/zpj7377327/luci-app-serverchan.gitrce
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
